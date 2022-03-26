@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+/* This is where another CSS start */
+body {
+    font-family: 'Raleways', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: white;
+    overflow-x: hidden4;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+.container {
+    height: 100vh;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background: black;
+    color: white;
+    height: 100px;
+}
+.navbar .logo {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.navbar .logo .portfolio {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.navbar .container {
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+.navbar a:hover{
+    border-bottom: 2px #fff solid;
+}
+.btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bolder;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: transform .4s;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px rgb(53, 2, 2);
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+span {
+    color: red;
+}
+
+.header {
+    background: black;
+    color: white;
+    min-height: 400px;
+}
+
+.header h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+
+.header h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.header h4 {
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    box-shadow: 0px 0px 5px black, 0px 0px 15px gray;
+    top: 6px;
+    right: 6px;
+    color: white;
+}
+
+.header .image {
+    max-width: 500px;
+}
+.header .image  img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* end  */
+
+
+/* The about section */
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(63, 3, 3);
+}
+
+.about .img-border {
+    max-width: 400px;
+    border: 10px solid white;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.about .img-border img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-justify: auto;
+}
+
+button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+#workdone {
+    width: 100%;
+    height: 500px;
+    padding: 100px 0px;
+}
+
+
+/* .workdonediv {
+    align-items: center;
+} */
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 25px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 6px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 10px; 
+}
+@media only screen and (max-width: 768px) {
+    .navbar .container  {
+        display: none;
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .header .container{
+        flex-direction: column;
+    }
+}   
