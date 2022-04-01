@@ -12,6 +12,9 @@ body {
     color: #333;
     background: white;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h2 {
@@ -252,20 +255,20 @@ button:hover{
     align-items: center;
 } */
 footer{
-    position: relative;
     width: 100%;
-    height: 200px;
+    height: 100px;
     background: #101010;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: auto;
 }
 
 footer p:nth-child(1){
-    font-size: 30px;
+    font-size: 25px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
@@ -297,7 +300,6 @@ footer p:nth-child(2){
 	transition: .3s;
 }
 .end{
-	position: absolute;
 	color:white;
 	bottom: 35px;
 	font-size: 10px; 
