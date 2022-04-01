@@ -7,11 +7,11 @@
 
 /* This is where another CSS start */
 body {
-    font-family: 'Raleways', sans-serif;
+    font-family: 'Josefin sans', sans-serif;
     font-size: 16px;
     color: #333;
     background: white;
-    overflow-x: hidden4;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -21,9 +21,12 @@ h2 {
 ul {
     list-style-type: none;
 }
+h1 {
+    white-space: break-space;
+}
 .container {
     height: 100vh;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -40,13 +43,14 @@ ul {
     cursor: pointer;
 }
 .navbar .logo .portfolio {
+
     color: white;
     text-decoration: none;
 }
 
 .navbar ul li a{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     font-weight: bolder;
     text-transform: capitalize;
@@ -69,7 +73,8 @@ ul {
     margin-left: 20px;
 }
 .navbar a:hover{
-    border-bottom: 2px #fff solid;
+    border-bottom: 1px red solid;
+    border-radius: 5px;
 }
 .btn{
     background-color: red;
@@ -84,6 +89,8 @@ ul {
 }
 
 .btn:hover{
+    background-color: white;
+    color: #f9004d;
     transform: scale(1.2);
 }
 
@@ -291,7 +298,7 @@ footer p:nth-child(2){
 }
 .end{
 	position: absolute;
-	color:#f9004d;
+	color:white;
 	bottom: 35px;
 	font-size: 10px; 
 }
