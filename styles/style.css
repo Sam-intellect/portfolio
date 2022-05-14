@@ -143,22 +143,6 @@ span {
     color: white;
 }
 
-.header .image {
-    /* border: 1px solid white;
-    border-radius: 20px; */
-    max-width: 500px;
-}
-.header .image  img{
-    width: 100%;
-    object-fit: contain;
-    padding:1px 20px;
-}
-
-.header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 /* Section for portfolio */
 #work{
